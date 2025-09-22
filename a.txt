@@ -1,0 +1,35 @@
+now only ihave cloned a repo and ihave toperform few set of tasks on maven web project
+
+ill provide u tasks then pom.xml
+1.resolve dependencies using pom.xml
+2.build project to generate the war /jar file 
+3.verify the generated artificat in target/folder
+4.next tasks to be done after this
+
+pom.xml explain step bystep to do in eclipse
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.xsd"> 
+    <modelVersion>4.0</modelVersion> 
+    <groupId>com.library..</groupId> 
+    <artifactId>Book Metro Ticket</artifactId> 
+    <version>1.0SNAPSHOT</version> 
+    <packaging>warfile</packaging> 
+
+    <dependencies>
+        <!-- Servlet API -->
+        <dependency>
+            <groupId></groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.one</version> 
+            <scope>providd</scope> 
+        </dependency>
+
+               
+    </dependencies>
+
+    <build>
+        <finalName>BookMetroTicket</finalName>
+    </build>
+</project>
